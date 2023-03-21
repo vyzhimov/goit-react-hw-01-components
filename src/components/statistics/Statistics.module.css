@@ -1,0 +1,53 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 600px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  color: rgb(44, 43, 43);
+  margin: 30px;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 4);
+  padding: 15px;
+}
+
+.label {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+  -webkit-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+  -moz-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+}
+
+.percentage {
+  font-size: 30px;
+  color: #fff;
+  -webkit-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+  -moz-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
+}
